@@ -1,0 +1,21 @@
+<%-- ① JSPコメント --%>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%><%--② pageディレクティブ --%>
+
+
+    <%
+    String name="ヤマザキ";
+    int age=24;
+    %><%--③ スクリプトレット--%>
+
+<!DOCTYPE html><%-- テンプレート --%>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>サンプル</title>
+</head>
+<body>
+私の名前は<%=name %>。年齢は<%=age %>才です。<%--④ スクリプト式--%>
+</body>
+</html>
